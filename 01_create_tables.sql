@@ -42,3 +42,11 @@ CREATE TABLE Stock (
     moq INT CHECK (moq >= 5),
     FOREIGN KEY (pid) REFERENCES Product(pid)
 );
+CREATE TABLE Purchase
+(
+    pid CHAR(10),
+    sid CHAR(10),
+    pqty INT,
+    dop DATE
+);
+
