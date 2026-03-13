@@ -18,3 +18,15 @@ T-SQL
 Stored Procedures
 Triggers
 Sequences
+
+### Tables Created
+![Tables](order_product_stock_table.png)
+
+### Stored Procedure Execution
+![Procedure](Add_order_supplier_details.png)
+
+### Stock Update Trigger
+![Stock](stock_after_order.png)
+
+### Daily Report
+![Report](Report_details.png)
